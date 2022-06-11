@@ -1,1 +1,116 @@
-<mxfile host="app.diagrams.net" modified="2022-06-11T01:57:32.182Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36" version="19.0.3" etag="6DfXUGvAY9CbjhMWPT7K" type="github"><diagram id="_pZEq4n4yToHKhBvGTUE">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-11T02:05:57.958Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36" etag="yqkWezQy-1i14CBiiAUX" version="19.0.3" type="github">
+  <diagram id="_pZEq4n4yToHKhBvGTUE" name="Page-1">
+    <mxGraphModel dx="2249" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PA3PWUUnRrvxrbIvg8QD-6" value="Metamask" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="150" width="100" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="PA3PWUUnRrvxrbIvg8QD-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="PA3PWUUnRrvxrbIvg8QD-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="54" y="168" as="sourcePoint" />
+            <mxPoint x="350" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PA3PWUUnRrvxrbIvg8QD-12" value="User&amp;nbsp; connected &lt;br&gt;wallet address" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=10;" vertex="1" connectable="0" parent="PA3PWUUnRrvxrbIvg8QD-11">
+          <mxGeometry x="0.128" relative="1" as="geometry">
+            <mxPoint x="12" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PA3PWUUnRrvxrbIvg8QD-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="250" as="sourcePoint" />
+            <mxPoint x="-48" y="296" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PA3PWUUnRrvxrbIvg8QD-10" value="Connect wallet" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-15;" vertex="1" connectable="0" parent="PA3PWUUnRrvxrbIvg8QD-9">
+          <mxGeometry x="0.099" y="1" relative="1" as="geometry">
+            <mxPoint y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PA3PWUUnRrvxrbIvg8QD-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="350" as="sourcePoint" />
+            <mxPoint x="490" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PA3PWUUnRrvxrbIvg8QD-14" value="Get nonce API" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=10;" vertex="1" connectable="0" parent="PA3PWUUnRrvxrbIvg8QD-13">
+          <mxGeometry x="0.099" y="1" relative="1" as="geometry">
+            <mxPoint y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PA3PWUUnRrvxrbIvg8QD-16" value="Backend API&lt;br&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="150" width="100" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="PA3PWUUnRrvxrbIvg8QD-19" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="240" y="140" width="30" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="PA3PWUUnRrvxrbIvg8QD-1" value="User&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="PA3PWUUnRrvxrbIvg8QD-19">
+          <mxGeometry width="30" height="51.21951219512195" as="geometry" />
+        </mxCell>
+        <mxCell id="PA3PWUUnRrvxrbIvg8QD-2" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="PA3PWUUnRrvxrbIvg8QD-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="14.659999999999997" y="700" as="sourcePoint" />
+            <mxPoint x="14.659999999999997" y="68.29268292682927" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PA3PWUUnRrvxrbIvg8QD-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="492" y="407" as="sourcePoint" />
+            <mxPoint x="260" y="456" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PA3PWUUnRrvxrbIvg8QD-21" value="nonce returned" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-15;" vertex="1" connectable="0" parent="PA3PWUUnRrvxrbIvg8QD-20">
+          <mxGeometry x="0.099" y="1" relative="1" as="geometry">
+            <mxPoint y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PA3PWUUnRrvxrbIvg8QD-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="242" y="465.5" as="sourcePoint" />
+            <mxPoint x="-46" y="528" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PA3PWUUnRrvxrbIvg8QD-23" value="Request metamask to sign the nonce" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-10;" vertex="1" connectable="0" parent="PA3PWUUnRrvxrbIvg8QD-22">
+          <mxGeometry x="0.099" y="1" relative="1" as="geometry">
+            <mxPoint y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PA3PWUUnRrvxrbIvg8QD-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-43" y="538" as="sourcePoint" />
+            <mxPoint x="250" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PA3PWUUnRrvxrbIvg8QD-25" value="Signed messaged" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=20;" vertex="1" connectable="0" parent="PA3PWUUnRrvxrbIvg8QD-24">
+          <mxGeometry x="0.099" y="1" relative="1" as="geometry">
+            <mxPoint y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PA3PWUUnRrvxrbIvg8QD-28" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="630" as="sourcePoint" />
+            <mxPoint x="490" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PA3PWUUnRrvxrbIvg8QD-29" value="Call login API&lt;br&gt;with signed message from metamask" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=10;" vertex="1" connectable="0" parent="PA3PWUUnRrvxrbIvg8QD-28">
+          <mxGeometry x="0.099" y="1" relative="1" as="geometry">
+            <mxPoint y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PA3PWUUnRrvxrbIvg8QD-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="492" y="710" as="sourcePoint" />
+            <mxPoint x="260" y="759" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PA3PWUUnRrvxrbIvg8QD-33" value="Access token returned" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-10;" vertex="1" connectable="0" parent="PA3PWUUnRrvxrbIvg8QD-32">
+          <mxGeometry x="0.099" y="1" relative="1" as="geometry">
+            <mxPoint y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
